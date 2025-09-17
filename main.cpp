@@ -40,7 +40,7 @@ void printVehicleDetails(vehicleType vehicle) {
         vehicle.engine.fuelCapacityInLiters << endl;
 }
 
-void readVehicleDetails(vehicleType vehicle) {
+void readVehicleDetails(vehicleType& vehicle) {
     // Read user input for vehicle details
 
     cout << endl << "Enter the make of your vehicle: ";
