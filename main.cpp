@@ -2,7 +2,7 @@
     Programmer: Ryan Posey
     Assignment: L7
     Purpose: Practice using nested structs
-    Due date: 9/16/2025
+    Due date: 9/110/2025
 */
 
 #include <iostream>
@@ -29,14 +29,14 @@ struct vehicleType {
 
 void printVehicleDetails(vehicleType vehicle) {
     // Format and print vehicle details
-    cout << endl << right << setw(12) << "Make:" << setw(12) << vehicle.make << endl <<
-        setw(12) << "Model:" << setw(12) << vehicle.model << endl <<
-        setw(12) << "Year:" << setw(12) << vehicle.year << endl <<
-        setw(12) << "Weight (Ibs):" << setw(12) << vehicle.weightInIbs << endl <<
-        setw(12) << "Engine: " << endl <<
-        setw(6) << "CylinderCount: " << setw(6) << vehicle.engine.cylinderCount << endl <<
-        setw(6) << "Manufacturer: " << setw(6) << vehicle.engine.manufacturer << endl <<
-        setw(6) << "Fuel capacity (Liters): " << setw(6) << 
+    cout << endl << right << setw(20) << "Make:" << right << setw(20) << vehicle.make << endl <<
+        right << setw(20) << "Model:" << right << setw(20) << vehicle.model << endl <<
+        right << setw(20) << "Year:" << right << setw(20) << vehicle.year << endl <<
+        right << setw(20) << "Weight (Ibs):" << right << setw(20) << vehicle.weightInIbs << endl <<
+        right << setw(20) << "Engine: " << endl <<
+        right << setw(10) << "CylinderCount: " << right << setw(10) << vehicle.engine.cylinderCount << endl <<
+        right << setw(10) << "Manufacturer: " << right << setw(10) << vehicle.engine.manufacturer << endl <<
+        right << setw(10) << "Fuel capacity (Liters): " << right << setw(10) << 
         vehicle.engine.fuelCapacityInLiters << endl;
 }
 
