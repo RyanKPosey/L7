@@ -27,7 +27,7 @@ struct vehicleType {
     engineType engine;
 };
 
-void printVehicle(vehicleType vehicle) {
+void printVehicleDetails(vehicleType vehicle) {
     // Format and print vehicle details
     cout << endl << right << setw(12) << "Make:" << setw(12) << vehicle.make << endl <<
         setw(12) << "Model:" << setw(12) << vehicle.model << endl <<
