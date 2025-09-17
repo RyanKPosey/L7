@@ -42,7 +42,6 @@ void printVehicleDetails(vehicleType vehicle) {
 
 void readVehicleDetails(vehicleType vehicle) {
     // Read user input for vehicle details
-    cin.ignore(); // Clear input stream as a safeguard
 
     cout << endl << "Enter the make of your vehicle: ";
     getline(cin, vehicle.make); // Use getline so whitespaces are allowed ex: Alfa Romeo
