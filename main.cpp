@@ -81,6 +81,9 @@ int main() {
     cout << "Enter vehicle 2:";
     readVehicleDetails(vehicle2);
 
+    cout << "Vehicle 1:";
     printVehicleDetails(vehicle1);
+    
+    cout << "Vehicle 2:";
     printVehicleDetails(vehicle2);
 }
