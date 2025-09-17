@@ -49,7 +49,7 @@ void readVehicleDetails(vehicleType& vehicle) {
     cout << endl << "Enter the model of your vehicle: ";
     getline(cin, vehicle.model); // Same thing here
 
-    cout << endl << "Enter the year that your vehicle was made (YYYY-MM-DD): ";
+    cout << endl << "Enter the year that your vehicle was made (YYYY): ";
     getline(cin, vehicle.year);
 
     cout << endl << "Enter the weight of your vehicle in ibs: ";
