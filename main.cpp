@@ -64,3 +64,16 @@ void readVehicleDetails(vehicleType vehicle) {
     cin >> vehicle.engine.fuelCapacityInLiters;
 }
 
+int main() {
+    vehicleType vehicle1;
+    vehicleType vehicle2;
+
+    cout << endl << "Enter vehicle 1: ";
+    readVehicleDetails(vehicle1);
+
+    cout << "Enter vehicle 2:";
+    readVehicleDetails(vehicle2);
+
+    printVehicleDetails(vehicle1);
+    printVehicleDetails(vehicle2);
+}
