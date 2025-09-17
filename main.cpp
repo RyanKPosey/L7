@@ -83,7 +83,9 @@ int main() {
 
     cout << "Vehicle 1:";
     printVehicleDetails(vehicle1);
+	 cout << endl;
     
     cout << "Vehicle 2:";
     printVehicleDetails(vehicle2);
+	 cout << endl;
 }
