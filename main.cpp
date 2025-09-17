@@ -63,7 +63,7 @@ void readVehicleDetails(vehicleType& vehicle) {
     cout << endl << "Enter the amount of cylinders the vehicle's engine has: ";
     cin >> vehicle.engine.cylinderCount;
 
-    cout << endl << "Enter the fuel capacity the engine's fuel tanks has in liters: ";
+    cout << endl << "Enter the fuel capacity the engine's fuel tank has in liters: ";
     cin >> vehicle.engine.fuelCapacityInLiters;
 
     cin.ignore(); // Clear input stream
