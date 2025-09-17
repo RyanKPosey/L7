@@ -35,7 +35,7 @@ void printVehicleDetails(vehicleType vehicle) {
         left << setw(30) << "Weight (Ibs):" << right << setw(30) << vehicle.weightInIbs << endl <<
         left << setw(30) << "Engine: " << endl <<
         left << setw(30) << "Manufacturer: " << right << setw(30) << vehicle.engine.manufacturer << endl <<
-        left << setw(30) << "CylinderCount: " << right << setw(30) << vehicle.engine.cylinderCount << endl <<
+        left << setw(30) << "Cylinder count: " << right << setw(30) << vehicle.engine.cylinderCount << endl <<
         left << setw(30) << "Fuel capacity (Liters): " << right << setw(30) << 
         vehicle.engine.fuelCapacityInLiters << endl;
 }
