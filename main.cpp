@@ -40,3 +40,27 @@ void printVehicleDetails(vehicleType vehicle) {
         vehicle.engine.fuelCapacityInLiters << endl;
 }
 
+void readVehicleDetails(vehicleType vehicle) {
+    // Read user input for vehicle details
+    cout << endl << "Enter the make of your vehicle: ";
+    getline(cin, vehicle.make); // Use getline so whitespaces are allowed ex: Alfa Romeo
+    
+    cout << endl << "Enter the model of your vehicle: ";
+    getline(cin, vehicle.model); // Same thing here
+
+    cout << endl << "Enter the year that your vehicle was made (YYYY-MM-DD): ";
+    getline(cin, vehicle.year);
+
+    cout << endl << "Enter the weight of your vehicle in ibs: ";
+    cin >> vehicle.weightInIbs;
+    
+    cout << endl << "Enter the manufacterer of the vehicle's engine: ";
+    getline(cin, vehicle.engine.manufacturer);
+    
+    cout << endl << "Enter the amount of cylinders the vehicle's engine has: ";
+    cin >> vehicle.engine.cylinderCount;
+
+    cout << endl << "Enter the fuel capacity the engine's fuel tanks has in liters: ";
+    cin >> vehicle.engine.fuelCapacityInLiters;
+}
+
