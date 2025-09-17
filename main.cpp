@@ -8,3 +8,10 @@
 #include <iostream>
 #include <cctype>
 #include <iomanip>
+
+struct vehicleType {
+    std::string make;
+    std::string model;
+    std::string year;
+    double weightInIbs;
+}
