@@ -29,14 +29,14 @@ struct vehicleType {
 
 void printVehicleDetails(vehicleType vehicle) {
     // Format and print vehicle details
-    cout << endl << right << setw(30) << "Make:" << right << setw(30) << vehicle.make << endl <<
-        right << setw(30) << "Model:" << right << setw(30) << vehicle.model << endl <<
-        right << setw(30) << "Year:" << right << setw(30) << vehicle.year << endl <<
-        right << setw(30) << "Weight (Ibs):" << right << setw(30) << vehicle.weightInIbs << endl <<
-        right << setw(30) << "Engine: " << endl <<
-        right << setw(30) << "CylinderCount: " << right << setw(30) << vehicle.engine.cylinderCount << endl <<
-        right << setw(30) << "Manufacturer: " << right << setw(30) << vehicle.engine.manufacturer << endl <<
-        right << setw(30) << "Fuel capacity (Liters): " << right << setw(30) << 
+    cout << endl << left << setw(30) << "Make:" << right << setw(30) << vehicle.make << endl <<
+        left << setw(30) << "Model:" << right << setw(30) << vehicle.model << endl <<
+        left << setw(30) << "Year:" << right << setw(30) << vehicle.year << endl <<
+        left << setw(30) << "Weight (Ibs):" << right << setw(30) << vehicle.weightInIbs << endl <<
+        left << setw(30) << "Engine: " << endl <<
+        left << setw(30) << "CylinderCount: " << right << setw(30) << vehicle.engine.cylinderCount << endl <<
+        left << setw(30) << "Manufacturer: " << right << setw(30) << vehicle.engine.manufacturer << endl <<
+        left << setw(30) << "Fuel capacity (Liters): " << right << setw(30) << 
         vehicle.engine.fuelCapacityInLiters << endl;
 }
 
