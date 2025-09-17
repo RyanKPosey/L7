@@ -62,6 +62,8 @@ void readVehicleDetails(vehicleType vehicle) {
 
     cout << endl << "Enter the fuel capacity the engine's fuel tanks has in liters: ";
     cin >> vehicle.engine.fuelCapacityInLiters;
+    
+    cout << endl;
 }
 
 int main() {
